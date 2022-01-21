@@ -60,3 +60,31 @@ newArticle.setAttribute("id", "everyday");
 newArticle.innerHTML = content;
 
 main.append(newArticle);
+
+
+
+
+const content_nav = `
+
+    <ul class="navList" >
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">service</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+
+`;
+
+const hederElement  = document.querySelector("#navId");
+
+const navBar = document.createElement("nav"); 
+
+navBar.classList.add("nav-class")
+navBar.innerHTML = content_nav;
+hederElement.appendChild(navBar);
+
+
+
+

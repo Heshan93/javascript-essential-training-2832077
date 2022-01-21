@@ -1,0 +1,25 @@
+
+.navList a{
+    text-decoration: none;
+}
+
+.navList{
+    
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+
+.navList li{
+    padding: 2em;
+  
+}
+
+
+a:hover{
+    background-color: aqua;
+}
+
+A:active{
+    color: brown;
+}
