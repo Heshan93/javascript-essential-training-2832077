@@ -57,3 +57,9 @@ const content = `
       }</span></li>
     </ul>  
 `;
+
+
+let art = document.createElement("article").appendChild(content);
+
+
+
